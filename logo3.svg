@@ -1,0 +1,24 @@
+<svg viewBox="0 0 2400 800" xmlns="http://www.w3.org/2000/svg">
+    
+    <rect width="2400" height="800" fill="#5C7F67"/>
+    <image 
+      href="leaves_full.svg" 
+      x="700" 
+      y="-500" 
+      width="500" 
+      height="500"
+      transform="rotate(90, 1200, 700)"/>      
+   />
+
+  
+  <text 
+  x="1000"
+   y="620" 
+  font-family="'Playfair Display'" 
+  font-size="600" 
+  fill="#F2ECDC"
+  font-weight="500" 
+        text-anchor="middle" 
+        style="font-stretch: condensed;">ficzere</text>
+  
+</svg>
