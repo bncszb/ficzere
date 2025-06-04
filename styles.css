@@ -1,59 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Playfair Display', serif;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  font-family: "Playfair Display", serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .split-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .upper-half {
-    height: 50%;
-    background-color: #5C7F67;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 50%;
+  background-color: #5c7f67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lower-half {
-    height: 50%;
-    background-color: #F2ECDC;
-    color: #5C7F67;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 50%;
+  background-color: #f2ecdc;
+  color: #5c7f67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-container {
-    width: 100%;
-    max-width: 800px;
-    text-align: center;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
 }
 
 .logo-container svg {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.domain-extension {
+  transition: all 0.5s ease;
+  /* dominant-baseline: text-before-edge; */
+  text-align: left;
+  text-anchor: start;
 }
 
 .coming-soon h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    letter-spacing: 2px;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 768px) {
-    .coming-soon h1 {
-        font-size: 2rem;
-    }
+  .coming-soon h1 {
+    font-size: 2rem;
+  }
 }
